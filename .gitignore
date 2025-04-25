@@ -1,0 +1,8 @@
+Lib/
+Scripts/
+pyvenv.cfg
+etc/
+share/
+*.ico
+desktop.ini
+superstore_data_extended.csv

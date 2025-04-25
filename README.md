@@ -107,7 +107,7 @@ pip install -r requirements.txt
    ```
 
 ### 6.3 Data Preparation
-- Place the dataset file `superstore_data_extended.csv` in the directory `C:/Projects/data/`. Ensure the dataset contains at least 500,000 records for scalability testing, with the required columns as specified in the "Data Requirements" section.
+- Download the dataset file `superstore_data_extended.csv` from the link provided in the "Output Files" section and place it in the directory `C:/Projects/data/`. Ensure the dataset contains at least 500,000 records for scalability testing, with the required columns as specified in the "Data Requirements" section.
 
 ### 6.4 Execution
 - Run the script:  
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 - The script will process the data, generate visualizations, and save outputs in `C:/Projects/data/`. Execution may take 1–2 minutes depending on system specifications and data size.
 
 ### 6.5 View Outputs
-- Open the interactive dashboard at `C:/Projects/data/Chart.html` in a web browser.
+- Download the interactive dashboards (see "Output Files" section) and open them in a web browser.
 - Review the detailed report at `C:/Projects/data/Sales_Analysis_Report.pdf`.
 
 ### 6.6 Troubleshooting
@@ -130,8 +130,11 @@ pip install -r requirements.txt
 ## Output Files
 The project generates the following output files, which can be used for detailed analysis and reporting to stakeholders:
 
-- **`C:/Projects/data/key_categories_graph.html`:** An interactive dashboard displaying a co-purchase graph of top product categories, statistical cards (e.g., total sales, average sales per transaction, total transactions), and query-based analysis results.
-- **`C:/Projects/data/Chart.html`:** A comprehensive dashboard featuring visualizations such as train-test data comparison, monthly sales trends, XGBoost predictions, top cities by sales, and a correlation heatmap between sales and promotions.
+- **Dataset:** The dataset used for analysis is available on Google Drive:  
+  - **Superstore Dataset:** [Download superstore_data_extended.csv](https://drive.google.com/file/d/1tN2l1EbU4rwjJreilwWuooLiR8j96L-w/view?usp=sharing) - The dataset containing sales data with at least 500,000 records, required to run the analysis script.  
+- **Interactive Dashboards:** The following dashboards are available on Google Drive:  
+  - **Key Categories Graph Dashboard:** [Download key_categories_graph.html](https://drive.google.com/file/d/1z_ROTDisLcf7HYwzV6DNLQczBspBH_2z/view?usp=sharing) - An interactive dashboard displaying a co-purchase graph of top product categories, statistical cards (e.g., total sales, average sales per transaction, total transactions), and query-based analysis results.  
+  - **Charts Dashboard:** [Download Chart.html](https://drive.google.com/file/d/1YjqrrpRcmdJ9DDzcMJk4Av0vmUGp4XpN/view?usp=sharing) - A comprehensive dashboard featuring visualizations such as train-test data comparison, monthly sales trends, XGBoost predictions, top cities by sales, and a correlation heatmap between sales and promotions.  
 - **`C:/Projects/data/Sales_Analysis_Report.pdf`:** A detailed PDF report summarizing key findings, including total sales, T-Test results, XGBoost prediction metrics, and actionable recommendations.
 - **`C:/Projects/data/xgboost_model_step3.pkl`:** The trained XGBoost model for sales prediction, saved for future use.
 - **`C:/Projects/data/README.md`:** This documentation file, providing an overview and instructions for the project.

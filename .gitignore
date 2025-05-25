@@ -5,3 +5,9 @@ etc/
 share/
 *.ico
 desktop.ini
+data/
+*.csv
+*.pdf
+*.pkl
+*.html
+__pycache__/
